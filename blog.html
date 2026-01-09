@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог - CodeFlow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <nav class="navbar container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-code"></i>
+                    Code<span>Flow</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="courses.html">Курсы</a></li>
+                    <li><a href="teachers.html">Преподаватели</a></li>
+                    <li><a href="blog.html" class="active">Блог</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <a href="contacts.html" class="btn btn-primary">Начать учиться</a>
+                    <button class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+        <div class="page-header">
+            <div class="container">
+                <h1 class="page-title">Наш <span class="highlight">блог</span></h1>
+                <p class="page-subtitle">Статьи, новости и полезные материалы от наших преподавателей и экспертов</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="blog section">
+            <div class="container">
+                <div class="blog-grid">
+                    <article class="blog-card featured">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="ИИ в разработке">
+                            <span class="blog-tag">Тренды</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 15 марта 2024</span>
+                                <span><i class="far fa-eye"></i> 2450 просмотров</span>
+                                <span><i class="far fa-clock"></i> 5 мин чтения</span>
+                            </div>
+                            <h2>ИИ в разработке: тренды 2024</h2>
+                            <p>Как искусственный интеллект меняет процессы разработки и какие навыки будут востребованы в ближайшие годы. Разбираем основные тренды и инструменты.</p>
+                            <a href="#" class="btn btn-secondary">Читать статью</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Python 3.12">
+                            <span class="blog-tag">Python</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 10 марта 2024</span>
+                                <span><i class="far fa-eye"></i> 1876 просмотров</span>
+                            </div>
+                            <h3>Новые возможности Python 3.12</h3>
+                            <p>Обзор нововведений в последней версии Python и как они улучшают разработку</p>
+                            <a href="#" class="read-more">Читать →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="React 18">
+                            <span class="blog-tag">React</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 5 марта 2024</span>
+                                <span><i class="far fa-eye"></i> 1567 просмотров</span>
+                            </div>
+                            <h3>React 18: Concurrent Features</h3>
+                            <p>Как использовать новые concurrent возможности React для создания более отзывчивых приложений</p>
+                            <a href="#" class="read-more">Читать →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="DevOps">
+                            <span class="blog-tag">DevOps</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 28 февраля 2024</span>
+                                <span><i class="far fa-eye"></i> 1321 просмотр</span>
+                            </div>
+                            <h3>DevOps в 2024: что изменилось</h3>
+                            <p>Основные тренды в DevOps, новые инструменты и подходы к автоматизации</p>
+                            <a href="#" class="read-more">Читать →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Data Science">
+                            <span class="blog-tag">Data Science</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 20 февраля 2024</span>
+                                <span><i class="far fa-eye"></i> 2100 просмотров</span>
+                            </div>
+                            <h3>Машинное обучение без математики</h3>
+                            <p>Практическое введение в ML для разработчиков</p>
+                            <a href="#" class="read-more">Читать →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="JavaScript">
+                            <span class="blog-tag">JavaScript</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 15 февраля 2024</span>
+                                <span><i class="far fa-eye"></i> 1789 просмотров</span>
+                            </div>
+                            <h3>TypeScript 5.0: новые возможности</h3>
+                            <p>Обзор важных изменений в последней версии TypeScript</p>
+                            <a href="#" class="read-more">Читать →</a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Кибербезопасность">
+                            <span class="blog-tag">Безопасность</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 10 февраля 2024</span>
+                                <span><i class="far fa-eye"></i> 1890 просмотров</span>
+                            </div>
+                            <h3>Основы кибербезопасности для разработчиков</h3>
+                            <p>Как защитить приложение от основных угроз и что должен знать каждый разработчик о безопасности</p>
+                            <a href="#" class="read-more">Читать →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                        Code<span>Flow</span>
+                    </div>
+                    <p>Школа программирования нового поколения. Превращаем новичков в востребованных специалистов.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Курсы</h3>
+                    <ul>
+                        <li><a href="courses.html">Python-разработчик</a></li>
+                        <li><a href="courses.html">JavaScript Fullstack</a></li>
+                        <li><a href="courses.html">Data Science</a></li>
+                        <li><a href="courses.html">Мобильная разработка</a></li>
+                        <li><a href="courses.html">DevOps</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Компания</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="courses.html">Курсы</a></li>
+                        <li><a href="teachers.html">Преподаватели</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> hello@codeflow.ru</li>
+                        <li><i class="fas fa-phone"></i> 8 (800) 333-22-11</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Цифровая, 15</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 CodeFlow. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

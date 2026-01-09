@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - CodeFlow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <nav class="navbar container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-code"></i>
+                    Code<span>Flow</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="courses.html">Курсы</a></li>
+                    <li><a href="teachers.html">Преподаватели</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <a href="contacts.html" class="btn btn-primary">Начать учиться</a>
+                    <button class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+        <div class="page-header">
+            <div class="container">
+                <h1 class="page-title">Свяжитесь с <span class="highlight">нами</span></h1>
+                <p class="page-subtitle">Есть вопросы? Мы поможем выбрать курс и ответим на все вопросы</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacts section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Наши <span class="highlight">контакты</span></h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Адрес</h3>
+                                <p>Москва, ул. Цифровая, 15<br>Бизнес-центр "Техноград", 7 этаж</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Телефон</h3>
+                                <p>8 (800) 333-22-11<br>Пн-Пт: 9:00-20:00, Сб: 10:00-18:00</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>hello@codeflow.ru<br>support@codeflow.ru</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Часы работы</h3>
+                                <p>Пн-Пт: 9:00-20:00<br>Сб: 10:00-18:00<br>Вс: выходной</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h3>Мы в соцсетях</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-vk"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Напишите <span class="highlight">нам</span></h2>
+                        
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Ваше имя *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Телефон</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="course">Интересующий курс</label>
+                                <select id="course" name="course">
+                                    <option value="">Выберите курс</option>
+                                    <option value="python">Python-разработчик</option>
+                                    <option value="javascript">JavaScript Fullstack</option>
+                                    <option value="data">Data Science</option>
+                                    <option value="mobile">Мобильная разработка</option>
+                                    <option value="devops">DevOps инженер</option>
+                                    <option value="design">Веб-дизайн</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Сообщение *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large">Отправить сообщение</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2 class="section-title">Мы на <span class="highlight">карте</span></h2>
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map-marker-alt map-icon"></i>
+                        <h3>Москва, ул. Цифровая, 15</h3>
+                        <p>Бизнес-центр "Техноград", 7 этаж</p>
+                        <p>Ближайшая станция метро: "Технопарк"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section section">
+            <div class="container">
+                <h2 class="section-title">Видеоэкскурсия по <span class="highlight">школе</span></h2>
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <iframe src="https://vkvideo.ru/video_ext.php?oid=-83374318&id=456239878&hash=116bf41edc594102&hd=3" width="1280" height="720" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                        Code<span>Flow</span>
+                    </div>
+                    <p>Школа программирования нового поколения. Превращаем новичков в востребованных специалистов.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Курсы</h3>
+                    <ul>
+                        <li><a href="courses.html">Python-разработчик</a></li>
+                        <li><a href="courses.html">JavaScript Fullstack</a></li>
+                        <li><a href="courses.html">Data Science</a></li>
+                        <li><a href="courses.html">Мобильная разработка</a></li>
+                        <li><a href="courses.html">DevOps</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Компания</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="courses.html">Курсы</a></li>
+                        <li><a href="teachers.html">Преподаватели</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> hello@codeflow.ru</li>
+                        <li><i class="fas fa-phone"></i> 8 (800) 333-22-11</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Цифровая, 15</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 CodeFlow. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
